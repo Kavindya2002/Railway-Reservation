@@ -1,0 +1,207 @@
+.btns{
+    display: flex;
+    margin-top: 10px;
+}
+body{
+    background-color: #eabb9f;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.lab{
+  font-weight: bold;
+  padding: 25px;
+}
+.del{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 65px;
+  margin-top: 100px;
+}
+.hatti{
+   width: 500px;
+   height: 500px;
+   margin-left: 100px;
+   margin-top:-50px;
+
+}
+
+#g{
+	margin-left:-300px;
+}
+
+
+
+.left-part {
+    margin-top: 100px;
+    background-color: #f2f3bf;
+    text-align: left;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+}
+
+.right-part{
+    margin-top: 100px;
+    width: 400px;
+    background-color: #f2f3bf;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.update-table{
+    justify-content: center;
+    margin-top: 100px;
+    width: 400px;
+    background-color: #f2f3bf;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+.picture {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the picture round */
+    background-color: gray; /* Placeholder color, replace with your image */
+    
+    margin-left: 100px; /* Centers the picture horizontally */
+    margin-right: 20px;
+}
+
+.username {
+    margin-top: 10px;
+}
+
+input[type="button"] {
+    margin-top: 10px;
+}
+/* CSS */
+
+
+.button-87 {
+  margin: 10px;
+  margin-left: 55px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+.username{
+    margin-left: 155px;
+}
+
+/* CSS */
+.button-32 {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+/* Style for labels */
+label {
+  display: block; /* Make labels appear on their own lines */
+  margin-bottom: 5px; /* Add some space between labels and inputs */
+  font-weight: bold; /* Make labels bold */
+}
+
+/* Style for text inputs */
+
+input[type="text"] {
+  width: 100%; /* Make inputs fill the available width */
+  padding: 8px; /* Add padding inside inputs */
+  margin-bottom: 10px; /* Add some space between inputs */
+  border: 1px solid #ccc; /* Add a border around inputs */
+  border-radius: 5px; /* Add rounded corners to inputs */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Style for submit button if needed */
+input[type="submit"] {
+  padding: 10px 20px; /* Add padding to the submit button */
+  background-color: #dfef4c; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Style for form groups (if needed) */
+.form-group {
+  margin-bottom: 20px; /* Add space between form groups */
+}
+
+/* Style for form control (if needed) */
+.form-control {
+  width: 100%; /* Make form control fill the available width */
+  padding: 8px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add rounded corners */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Additional styles can be added as needed */
+
+#bt{
+	margin-top:10px;
+}
+
+
+  
